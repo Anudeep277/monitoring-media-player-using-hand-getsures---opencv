@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[38]:
-
-
 import cv2
 import time
 import os
@@ -61,27 +55,5 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-if((mylist[4][1] > mylist[3][1]) and (mylist[8][2] > mylist[6][2]) and (mylist[12][2] > mylist[10][2]) and (mylist[16][2] > mylist[14][2]) and (mylist[20][2] > mylist[18][2])):
-                 cv2.putText(img,"it's thumb babe",(50,600),cv2.FONT_HERSHEY_SIMPLEX,2,(255,0,0),10)
 
